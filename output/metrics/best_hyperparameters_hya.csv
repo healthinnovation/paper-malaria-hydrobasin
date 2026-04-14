@@ -1,0 +1,15 @@
+unit,model,disease,param,value
+hydrobasin_ana,RF,P.Falciparum,mtry,4
+hydrobasin_ana,RF,P.Falciparum,ntree,500
+hydrobasin_ana,RF,P.Vivax,mtry,13
+hydrobasin_ana,RF,P.Vivax,ntree,500
+hydrobasin_ana,XGBoost,P.Falciparum,nrounds,200
+hydrobasin_ana,XGBoost,P.Falciparum,eta,0.1
+hydrobasin_ana,XGBoost,P.Falciparum,max_depth,3
+hydrobasin_ana,XGBoost,P.Vivax,nrounds,200
+hydrobasin_ana,XGBoost,P.Vivax,eta,0.3
+hydrobasin_ana,XGBoost,P.Vivax,max_depth,6
+hydrobasin_ana,SVM,P.Falciparum,C,1
+hydrobasin_ana,SVM,P.Falciparum,sigma,0.25
+hydrobasin_ana,SVM,P.Vivax,C,64
+hydrobasin_ana,SVM,P.Vivax,sigma,0.03125

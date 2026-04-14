@@ -1,0 +1,7 @@
+modelo,disease,rmse,rse,region
+rf,P.Falciparum,17.24,17.25,districts
+rf,P.Vivax,51.74,51.76,districts
+xgb,P.Falciparum,17.08,17.09,districts
+xgb,P.Vivax,50.77,50.79,districts
+svm,P.Falciparum,24.91,24.92,districts
+svm,P.Vivax,69.92,69.95,districts

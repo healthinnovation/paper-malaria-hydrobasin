@@ -1,0 +1,15 @@
+unit,model,disease,param,value
+districts,RF,P.Falciparum,mtry,13
+districts,RF,P.Falciparum,ntree,500
+districts,RF,P.Vivax,mtry,12
+districts,RF,P.Vivax,ntree,500
+districts,XGBoost,P.Falciparum,nrounds,300
+districts,XGBoost,P.Falciparum,eta,0.2
+districts,XGBoost,P.Falciparum,max_depth,8
+districts,XGBoost,P.Vivax,nrounds,300
+districts,XGBoost,P.Vivax,eta,0.2
+districts,XGBoost,P.Vivax,max_depth,8
+districts,SVM,P.Falciparum,C,1
+districts,SVM,P.Falciparum,sigma,0.25
+districts,SVM,P.Vivax,C,64
+districts,SVM,P.Vivax,sigma,0.5

@@ -1,0 +1,7 @@
+modelo,disease,rmse,rse,region
+rf,P.Falciparum,37.8,37.82,hydrobasin ANA
+rf,P.Vivax,79.13,79.18,hydrobasin ANA
+xgb,P.Falciparum,31.93,31.95,hydrobasin ANA
+xgb,P.Vivax,70.54,70.58,hydrobasin ANA
+svm,P.Falciparum,42.44,42.46,hydrobasin ANA
+svm,P.Vivax,85.99,86.04,hydrobasin ANA

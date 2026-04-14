@@ -1,0 +1,7 @@
+modelo,disease,rmse,rse,region
+rf,P.Falciparum,17.07,17.08,hydrobasin level 7
+rf,P.Vivax,39.97,39.98,hydrobasin level 7
+xgb,P.Falciparum,15.67,15.68,hydrobasin level 7
+xgb,P.Vivax,36.79,36.8,hydrobasin level 7
+svm,P.Falciparum,19.59,19.59,hydrobasin level 7
+svm,P.Vivax,45.47,45.49,hydrobasin level 7
