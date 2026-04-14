@@ -30,6 +30,23 @@ Hydrobasin level 7 (78 units) consistently achieved the lowest prediction error 
 | Hydrobasin L6 | 118.93 | 122.48 | 148.68 | 229.05 |
  
 > For *P. falciparum*, hydrobasin L7 reduced RMSE by 24–68% relative to district and ANA boundaries. For *P. vivax*, reductions ranged from 28–74%. Spatiotemporal cross-validation (2009–2014 train / 2015–2018 test) confirmed these patterns, with lowest temporal RMSE at hydrobasin L7 for both species (28.67 and 73.85 respectively).
+
+### Spatial distribution of residuals
+
+Residual values (observed − predicted cases per 100 inhabitants) mapped across
+boundary types and models. Negative values indicate overestimation; positive
+values indicate underestimation.
+
+![Residual map](output/figures/residual_map.png)
+
+- **Hydrobasin L7** shows the most spatially balanced residuals for both species,
+  with moderate over/underestimation distributed across the region
+- **ANA and District** boundaries exhibit large overestimation zones (dark red)
+  concentrated in the northwest, particularly for *P. vivax* across all three models
+- **Hydrobasin L6** shows predominantly mild residuals but loses spatial detail
+  due to its low number of units (N = 13)
+- *P. vivax* residuals are consistently larger in magnitude than *P. falciparum*
+  across all boundaries, consistent with its higher prediction error in RMSE tables
  
 ---
 
