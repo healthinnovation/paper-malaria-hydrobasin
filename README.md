@@ -4,6 +4,9 @@
 *Malaria remains a major public health threat in the Peruvian Amazon, where Loreto accounts for more than 76% of national cases. Most spatial modelling studies rely on administrative boundaries (districts) that follow arbitrary political divisions, poorly reflecting the ecological dynamics that drive transmission.
 This study evaluates whether watershed-based spatial units (hydrobasins) outperform traditional administrative boundaries for predicting Plasmodium vivax and Plasmodium falciparum cases in Loreto from 2009 to 2018. Four boundary types are compared: administrative districts and three hydrological levels (HydroSHEDS L6, L7, and ANA watersheds). Modelling combines Zero-Inflated Negative Binomial (ZINB) regression with three machine learning algorithms — Random Forest, Support Vector Machine, and XGBoost — using PCA-derived climatic, hydrological, and vegetation predictors from satellite imagery.*
 
+## Study area
+
+![](output/figures/figure01.svg)
 
 ---
  
@@ -37,7 +40,7 @@ Residual values (observed − predicted cases per 100 inhabitants) mapped across
 boundary types and models. Negative values indicate overestimation; positive
 values indicate underestimation.
 
-![Residual map](output/figures/residual_map.png)
+![](output/figures/figure04.svg)
 
 - **Hydrobasin L7** shows the most spatially balanced residuals for both species,
   with moderate over/underestimation distributed across the region
